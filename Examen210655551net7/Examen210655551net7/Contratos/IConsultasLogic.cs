@@ -12,10 +12,10 @@ namespace Examen210655551net7.Contratos
     {
         public Task<bool> InsertarPedidoDetalles(Pedido pedido);
         public Task<List<DtoClientePedido>> ListarClientePedido();
-        public Task<List<Producto>> Listar3Productos();
-        public Task<bool> ModificarPedidoDetalle(Pedido pedido, List<Detalle> detalles);
+        public Task<List<DtoProductoVendido>> Listar3Productos();
+        public Task<bool> ModificarPedidoDetalle(Pedido pedido, int id);
         public Task<bool> EliminarClienteCascada(int id);
-        public Task<List<Producto>> ListarProductosMasVendidos(DateTime f1,DateTime f2);
+        public Task<List<DtoProductosVendidosFecha>> ListarProductosMasVendidosFecha(DateTime f1,DateTime f2);
 
     }
 }
