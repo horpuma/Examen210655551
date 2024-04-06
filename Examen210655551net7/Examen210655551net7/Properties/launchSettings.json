@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "Examen210655551": {
+    "Examen210655551net7": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7114",
+      "commandLineArgs": "--port 7064",
       "launchBrowser": false
     }
   }
